@@ -33,4 +33,10 @@ public interface LoginUserDataAccessInterface {
      */
     void setCurrentUser(String name);
 
+    /**
+     * Get the current user.
+     * @return the current user
+     */
+    String getCurrentUser();
+
 }
